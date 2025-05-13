@@ -1,0 +1,75 @@
+body {
+  font-family: Verdana;
+  background-color: #f3f3f3;
+  padding: 2rem;
+}
+
+.menu-container {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Botões do menu */
+.dropbtn {
+  background-color: transparent;
+  color: #004854;
+  font-size: 14px;
+ 
+  cursor: pointer;
+  width: auto;
+  text-align: left;
+}
+
+.dropbtn.red {
+  color: #004854;
+  
+}
+
+/* Container do dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+/* Conteúdo do dropdown escondido por padrão */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 200px;
+  z-index: 1;
+  padding: 10px;
+  border-top: solid 4px;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-color: #B20000;
+}
+
+.dropdown-content a {
+  color: #004854;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  border:4px;
+  border-color: #004854;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+  color: #B20000;
+	
+}
+
+/* Mostra o menu ao passar o mouse */
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+/* Largura maior para lista de cursos */
+.dropdown-content.wide {
+  width: 250px;
+ 
+}

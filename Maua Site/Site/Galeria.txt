@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeria - Etec Mauá</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <img src="logo.png" alt="Logo Etec" class="h-10">
+        <div>
+          <h1 class="text-xl font-bold">Etec Mauá</h1>
+          <p class="text-sm text-red-500">20 anos</p>
+        </div>
+      </div>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#" class="hover:text-red-500">Home</a>
+        <a href="#" class="hover:text-red-500">APM</a>
+        <a href="#" class="hover:text-red-500">Sobre</a>
+        <a href="#" class="hover:text-red-500">Cursos</a>
+        <a href="#" class="hover:text-red-500">Secretaria</a>
+        <a href="#" class="hover:text-red-500">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="max-w-7xl mx-auto px-4 py-2 text-sm text-gray-600">
+    <p>Sobre > Galeria</p>
+  </div>
+
+  <!-- Galeria -->
+  <section class="bg-gray-700 text-white py-6 rounded-t-xl">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center">Galeria</h2>
+    </div>
+  </section>
+  <section class="bg-white px-4 py-6">
+    <div class="max-w-7xl mx-auto grid grid-cols-5 gap-4">
+      <!-- Repetir imagem -->
+      <img src="foto1.jpg" class="w-full h-auto rounded shadow">
+      <img src="foto2.jpg" class="w-full h-auto rounded shadow">
+      <img src="foto3.jpg" class="w-full h-auto rounded shadow">
+      <img src="foto4.jpg" class="w-full h-auto rounded shadow">
+      <img src="foto5.jpg" class="w-full h-auto rounded shadow">
+      <!-- Repita mais conforme necessário -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-700 text-white mt-10 py-6">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <p class="font-bold">Escola Técnica Estadual de Mauá</p>
+        <p>Rua Ribeirão Preto, Nº 75 - Bairro Matriz<br>Mauá SP - CEP: 09370-530</p>
+        <p>Telefones: (11) 4519-3901 / (11) 4519-3902</p>
+      </div>
+      <div>
+        <p class="font-bold">Extensão EE João Paulo II</p>
+        <p>Rua Barnabé Costa, 57 - Jd Campo Verde<br>Mauá SP - CEP: 09320-015</p>
+      </div>
+      <div class="col-span-full mt-4 flex space-x-4">
+        <p>Acesse também nossas redes sociais:</p>
+        <a href="#" class="hover:text-gray-300">@etecmaua</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
